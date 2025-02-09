@@ -1,0 +1,27 @@
+---
+description: Organizing files in this repository
+globs: 
+---
+# Project Organization Rules
+
+## Documentature
+roject overview, quick start guide, and high-level information
+- `docs/REQUIREMENTS.md`: ONLY project requirements and specifications
+- `docs/SETUP.md`: Development environment setup and workflow
+
+## Documentation Guidelines
+1. Keep documentation focused and single-purpose:
+   - REQUIREMENTS.md should only contain actual requirements
+   - Implementation details belong in separate documents
+   - Architecture details go in ARCHITECTURE.md
+   - Setup instructions go in SETUP.md
+
+2. Documentation Updates:
+   - Update relevant documentation after every significant change
+   - Keep each document focused on its specific purpose
+   - Don't mix implementation details with requirements
+
+3. File Organization:
+   - Source code goes in `src/`
+   - Documentation goes in `docs/`
+   - Cursor rules go in `.cursor/rules/`

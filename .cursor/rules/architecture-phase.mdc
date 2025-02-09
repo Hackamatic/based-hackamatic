@@ -1,0 +1,91 @@
+---
+description: Architecture phase
+globs: 
+---
+ # Architecture Phase Guidance
+
+This rule guides the agent through the system architecture design and documentation phase.
+
+## Phase 1: System Overview
+1. Create `docs/ARCHITECTURE.md` with:
+   - High-level system overview
+   - Key components and their interactions
+   - System boundaries and interfaces
+   - Core technologies and frameworks
+   - Design principles and patterns
+
+## Phase 2: Component Design
+1. Document each major component:
+   - Purpose and responsibilities
+   - Internal structure
+   - Dependencies
+   - Data flow
+   - API contracts
+   - State management
+
+2. Define integration points:
+   - External services integration
+   - Blockchain interactions
+   - AI service integration
+   - Authentication flows
+   - API endpoints
+
+## Phase 3: Technical Specifications
+1. Document infrastructure requirements:
+   - Deployment architecture
+   - Scaling considerations
+   - Security measures
+   - Performance requirements
+   - Monitoring and logging
+
+2. Define development specifications:
+   - Code organization
+   - Naming conventions
+   - Testing strategy
+   - CI/CD pipeline
+   - Documentation standards
+
+## Phase 4: Implementation Planning
+1. Create technical implementation roadmap:
+   - Component development order
+   - Dependencies timeline
+   - Integration milestones
+   - Testing phases
+   - Deployment stages
+
+2. Document technical risks and mitigations:
+   - Architectural risks
+   - Security considerations
+   - Scalability challenges
+   - Integration complexities
+   - Performance bottlenecks
+
+## Deliverables
+1. Architecture Documentation:
+   - ARCHITECTURE.md
+   - Component diagrams
+   - Sequence diagrams
+   - Data flow diagrams
+   - API specifications
+
+2. Technical Planning:
+   - Implementation roadmap
+   - Risk assessment
+   - Technical debt considerations
+   - Future scalability plans
+
+## Constraints
+- Architecture must align with project requirements
+- Design decisions must be documented with rationale
+- Security and scalability must be addressed
+- All diagrams must use standard notation (UML, C4, etc.)
+- Documentation must be clear and maintainable
+
+## Success Criteria
+- Complete architecture documentation
+- Clear component responsibilities
+- Well-defined interfaces
+- Documented technical decisions
+- Actionable implementation plan
+- Identified risks and mitigations
+- Team alignment on architecture

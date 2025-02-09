@@ -1,0 +1,221 @@
+---
+description: Markdown Documentation Standards
+globs: *.md
+---
+# Markdown Documentation Standards
+
+This rule guides the formatting and structure of markdown documentation files to maintain consistency across the project.
+
+## File Structure
+
+1. **File Naming**
+   - Use uppercase for documentation files (e.g., `README.md`, `SETUP.md`)
+   - Always use `.md` extension
+   - Keep filenames concise and descriptive
+
+2. **Header Structure**
+   - Start with a single level-1 header (`#`)
+   - Add emoji before main title with one space after emoji
+   - Maintain proper header hierarchy (don't skip levels)
+   - Add one blank line before and after headers
+   - Use descriptive header titles
+   - Maximum of three header levels in a single file
+
+## Content Formatting
+
+1. **Lists**
+   - Add blank line before starting a list
+   - Add blank line after list ends
+   - Indent nested lists with 2 spaces
+   - Use `-` for unordered lists consistently
+   - Use `1.` for ordered lists (not 2., 3., etc.)
+   - Add blank line after list items with nested content
+   - Indent nested content under list items with 3 spaces
+
+2. **Code Blocks**
+   - Add blank line before and after code blocks
+   - Always specify the language when applicable
+   - Use `plaintext` for directory structures
+   - Use `bash` for shell commands
+   - Use `json` for JSON content
+   - Use `yaml` for YAML content
+   - Indent code blocks under list items with 3 spaces
+   - Add descriptive comments in code blocks
+   - Keep code blocks focused and concise
+
+3. **Links and References**
+   - Use relative paths for internal links
+   - Use descriptive link text (not "click here" or "this")
+   - Group related links together
+   - Add hover text for clarity when needed
+   - Check links validity before committing
+   - Format: `[Descriptive Text](mdc:path/to/file)`
+   - For external links, include HTTPS protocol
+
+4. **Emphasis and Formatting**
+   - Use `**bold**` for emphasis and UI elements
+   - Use `*italic*` for terminology and new concepts
+   - Use `backticks` for:
+     - File names
+     - Directory paths
+     - Code snippets
+     - Commands
+     - Environment variables
+     - Configuration keys
+   - Use `> blockquotes` for important notes
+   - Use horizontal rules (`---`) to separate major sections
+
+## Documentation Components
+
+1. **Required Sections**
+   - Overview/Introduction (with emoji)
+   - Prerequisites (if applicable)
+   - Setup/Installation
+   - Usage/Examples
+   - Additional Resources
+   - Each section must have a descriptive header
+
+2. **Optional Sections**
+   - Troubleshooting
+   - FAQ
+   - Contributing
+   - License
+   - Each section must follow the same formatting rules
+
+3. **Section Organization**
+   - Order sections by importance
+   - Keep related information together
+   - Use consistent section depth
+   - Add navigation links for long documents
+   - Include table of contents for documents over 100 lines
+
+## Spacing Rules
+
+1. **Vertical Spacing**
+   - One blank line before headers
+   - One blank line after headers
+   - One blank line before lists
+   - One blank line after lists
+   - One blank line before code blocks
+   - One blank line after code blocks
+   - One blank line before blockquotes
+   - One blank line after blockquotes
+   - No multiple consecutive blank lines
+   - No blank lines at start or end of file
+
+2. **Horizontal Spacing**
+   - No trailing whitespace
+   - No tabs (use spaces)
+   - Use 2-space indentation for nested content
+   - Maximum line length of 120 characters
+   - Break long lines at natural points
+   - Align nested content consistently
+
+## Emoji Usage
+
+1. **Section Headers**
+   - Use relevant emojis at start of main sections
+   - Leave one space after emoji
+   - Use consistent emoji style
+   - Don't overuse emojis (main sections only)
+   - Place emoji before the header text
+   - No emoji in subsections
+
+2. **Recommended Emojis**
+   - 📚 Documentation
+   - ⚡ Quick start
+   - 🔧 Setup/Configuration
+   - 🚀 Getting started
+   - 📋 Requirements
+   - 🤝 Contributing
+   - 📄 License
+   - 🎯 Goals/Objectives
+   - 💡 Tips/Notes
+   - ❓ FAQ/Help
+   - ⚠️ Warnings
+   - 🔍 Search/Find
+   - 📂 Files/Folders
+
+## Content Guidelines
+
+1. **Writing Style**
+   - Use active voice
+   - Keep paragraphs concise (4-5 lines maximum)
+   - Use consistent terminology
+   - Define acronyms on first use
+   - Write in present tense
+   - Use second person ("you") for instructions
+   - Break complex procedures into steps
+   - Include examples for complex concepts
+
+2. **File Organization**
+   - Group related documentation together
+   - Maintain consistent structure across similar files
+   - Keep individual files focused and single-purpose
+   - Link between related documents
+   - Use consistent naming conventions
+   - Create separate files for large topics
+   - Maximum file size of 500 lines
+
+## Validation
+
+1. **Pre-commit Checks**
+   - No broken links
+   - No markdown syntax errors
+   - Proper heading hierarchy
+   - Consistent spacing
+   - No trailing whitespace
+   - Valid code blocks
+   - Proper list formatting
+   - Spell check
+   - Grammar check
+
+2. **Regular Maintenance**
+   - Review documentation monthly
+   - Update outdated content
+   - Fix broken links
+   - Maintain consistent formatting
+   - Remove obsolete information
+   - Update examples
+   - Verify all code blocks
+   - Check for clarity and completeness
+
+## Examples
+
+1. **Correct List Formatting**
+   ```markdown
+   1. **First Item**
+
+      - Nested item
+      - Another nested item
+
+        ```bash
+        # Code under nested item
+        echo "Hello"
+        ```
+
+   2. **Second Item**
+
+      Some content under second item
+   ```
+
+2. **Correct Header Usage**
+   ```markdown
+   # 📚 Main Title
+
+   ## Section Title
+
+   ### Subsection Title
+   ```
+
+## Success Criteria
+- Consistent formatting across all documentation
+- Clear and readable content structure
+- Valid markdown syntax
+- Working links and references
+- Proper use of markdown features
+- Maintainable documentation
+- Passes all validation checks
+- Follows all spacing rules
+- Proper emoji usage
+- Consistent list formatting

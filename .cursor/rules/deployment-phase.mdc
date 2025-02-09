@@ -1,0 +1,135 @@
+---
+description: Deployment phase
+globs: 
+---
+ # Deployment Phase Guidance
+
+This rule guides the agent through the deployment phase, ensuring proper infrastructure setup and application hosting.
+
+## Phase 1: Infrastructure Setup
+1. Cloud Infrastructure:
+   - Select cloud provider
+   - Configure cloud resources
+   - Set up networking
+   - Configure security groups
+   - Initialize monitoring services
+
+2. Blockchain Infrastructure:
+   - Configure Base network connections
+   - Set up wallet management
+   - Initialize smart contract deployments
+   - Configure blockchain monitoring
+   - Set up transaction management
+
+3. AI Service Infrastructure:
+   - Configure AI service providers
+   - Set up API access
+   - Initialize model endpoints
+   - Configure rate limiting
+   - Set up monitoring
+
+## Phase 2: Environment Configuration
+1. Configure environments:
+   - Development
+   - Staging
+   - Production
+   - Testing
+
+2. Environment variables:
+   - Create .env templates
+   - Document required variables
+   - Set up secrets management
+   - Configure key rotation
+   - Document security policies
+
+## Phase 3: Deployment Pipeline
+1. CI/CD setup:
+   - Configure build pipeline
+   - Set up automated testing
+   - Configure deployment stages
+   - Set up rollback procedures
+   - Initialize monitoring alerts
+
+2. Deployment automation:
+   - Create deployment scripts
+   - Configure container orchestration
+   - Set up load balancing
+   - Configure auto-scaling
+   - Set up health checks
+
+## Phase 4: Application Deployment
+1. Pre-deployment checklist:
+   - Security audit
+   - Performance testing
+   - Database migrations
+   - Backup procedures
+   - Documentation review
+
+2. Deployment steps:
+   - Database deployment
+   - Backend services
+   - Frontend applications
+   - Smart contracts
+   - Integration verification
+
+## Phase 5: Post-Deployment
+1. Monitoring setup:
+   - Application metrics
+   - System metrics
+   - Blockchain metrics
+   - AI service metrics
+   - User analytics
+
+2. Maintenance procedures:
+   - Backup schedules
+   - Update procedures
+   - Security patches
+   - Performance optimization
+   - Resource scaling
+
+## Documentation Requirements
+1. Infrastructure documentation:
+   - Architecture diagrams
+   - Network topology
+   - Security measures
+   - Access controls
+   - Recovery procedures
+
+2. Deployment documentation:
+   - Deployment procedures
+   - Configuration guides
+   - Troubleshooting guides
+   - Monitoring guides
+   - Maintenance procedures
+
+## Constraints
+- All infrastructure must be documented
+- Security best practices must be followed
+- Automated deployment required
+- Monitoring must be comprehensive
+- Backup procedures must be tested
+- Recovery plans must be documented
+
+## Success Criteria
+- Successful deployment to all environments
+- All monitoring systems active
+- Security measures verified
+- Backup systems tested
+- Documentation complete
+- Team trained on procedures
+- Recovery plans validated
+
+## Emergency Procedures
+1. Incident response:
+   - Error detection
+   - Impact assessment
+   - Communication plan
+   - Resolution steps
+   - Post-mortem analysis
+
+2. Recovery procedures:
+   - Service restoration
+   - Data recovery
+   - System rollback
+   - Communication protocols
+   - Incident documentation

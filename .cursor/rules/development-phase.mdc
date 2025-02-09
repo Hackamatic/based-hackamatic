@@ -1,0 +1,114 @@
+---
+description: Development phase
+globs: 
+---
+ # Development Phase Guidance
+
+This rule guides the agent through the implementation phase, ensuring organized code development and synchronized documentation updates.
+
+## Phase 1: Project Setup
+1. Initialize project structure in `src/`:
+   - Create necessary directories based on architecture
+   - Set up build configuration
+   - Initialize package management
+   - Configure development environment
+   - Set up testing framework
+
+2. Update documentation:
+   - Add development setup instructions to SETUP.md
+   - Update README.md with project structure
+   - Document build and test procedures
+
+## Phase 2: Core Implementation
+1. Implement foundation components:
+   - Base classes and interfaces
+   - Core utilities and helpers
+   - Common types and constants
+   - Shared configurations
+   - Base test fixtures
+
+2. Document core implementations:
+   - Update ARCHITECTURE.md with actual implementations
+   - Add code documentation and comments
+   - Create API documentation if applicable
+
+## Phase 3: Feature Implementation
+1. For each feature:
+   - Create feature branch
+   - Implement components as per architecture
+   - Write unit tests
+   - Add integration tests
+   - Document feature-specific details
+
+2. Documentation updates per feature:
+   - Update technical documentation
+   - Add usage examples
+   - Document API changes
+   - Update diagrams if needed
+
+## Phase 4: Integration
+1. Component integration:
+   - Implement service integrations
+   - Add blockchain interactions
+   - Integrate AI services
+   - Set up authentication
+   - Configure API endpoints
+
+2. Update integration documentation:
+   - Document integration flows
+   - Update sequence diagrams
+   - Add configuration guides
+   - Document environment requirements
+
+## Phase 5: Testing and Refinement
+1. Testing implementation:
+   - Complete unit test coverage
+   - Add end-to-end tests
+   - Implement performance tests
+   - Security testing
+   - User acceptance testing
+
+2. Documentation finalization:
+   - Update test documentation
+   - Document known issues
+   - Add troubleshooting guides
+   - Update performance metrics
+
+## Development Guidelines
+1. Code Organization:
+   - Follow defined architecture
+   - Maintain consistent structure
+   - Use clear naming conventions
+   - Keep components modular
+   - Follow SOLID principles
+
+2. Documentation Requirements:
+   - Document all public APIs
+   - Add inline code comments
+   - Keep documentation in sync with code
+   - Update relevant diagrams
+   - Document breaking changes
+
+3. Testing Requirements:
+   - Write tests before implementation
+   - Maintain test coverage goals
+   - Document test scenarios
+   - Include edge cases
+   - Add performance benchmarks
+
+## Constraints
+- All code must follow project style guide
+- Documentation must be updated with code changes
+- Tests required for all new features
+- No breaking changes without documentation
+- Performance requirements must be met
+- Security best practices must be followed
+
+## Success Criteria
+- Clean, maintainable code
+- Comprehensive test coverage
+- Up-to-date documentation
+- Meeting performance targets
+- Passing security checks
+- Working integrations
+- Satisfied requirements

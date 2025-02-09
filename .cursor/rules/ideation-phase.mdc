@@ -1,0 +1,64 @@
+---
+description: Ideation phase
+globs: 
+---
+ # Ideation Phase Guidance
+
+This rule guides the agent through the initial ideation and project setup phase.
+
+## Phase 1: Bounty Information
+1. Request the bounty link from the user
+2. Create and populate `docs/BOUNTY-DESCRIPTION.md` with:
+   - Bounty link
+   - Prize details
+   - Requirements and constraints
+   - Submission guidelines
+   - Deadline information
+
+## Phase 2: Project Ideation
+1. Guide user through ideation process:
+   - Ask about their initial project ideas
+   - Provide suggestions based on bounty requirements
+   - Help refine and validate ideas against bounty criteria
+   - Discuss technical feasibility
+   - Explore innovative approaches
+
+2. Document finalized project concept in `docs/PROJECT-DESCRIPTION.md`:
+   - Project overview
+   - Key features
+   - Technical approach
+   - Unique value proposition
+   - Implementation strategy
+
+## Phase 3: Documentation Update
+1. Update `docs/REQUIREMENTS.md`:
+   - Add project-specific requirements
+   - Align with bounty requirements
+   - Include technical constraints
+   - Define success criteria
+
+2. Update `README.md`:
+   - Project title and description
+   - Key features
+   - Technologies used
+   - Setup instructions reference
+   - Team information
+
+3, Update the `SETUP.md`:
+   - Next steps
+   - Guiding the agent
+   - Fixing mistakes
+   - Deploying the application
+
+## Constraints
+- No code implementation should begin before completing these phases
+- Each phase must be completed sequentially
+- All documentation must be created and approved before proceeding
+- Changes to project direction require updates to all related documentation
+
+## Success Criteria
+- Clear project direction documented
+- Complete bounty requirements captured
+- Well-defined project scope
+- Comprehensive documentation in place
+- Team alignment on project goals
