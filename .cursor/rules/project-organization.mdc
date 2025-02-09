@@ -4,10 +4,11 @@ globs:
 ---
 # Project Organization Rules
 
-## Documentature
-roject overview, quick start guide, and high-level information
+## Documentation Structure
+- `README.md`: Project overview, quick start guide, and high-level information
 - `docs/REQUIREMENTS.md`: ONLY project requirements and specifications
 - `docs/SETUP.md`: Development environment setup and workflow
+- `docs/API.md`: API documentation and examples
 
 ## Documentation Guidelines
 1. Keep documentation focused and single-purpose:

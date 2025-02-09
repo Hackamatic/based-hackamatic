@@ -1,14 +1,10 @@
----
-description: Ideation phase
-globs: 
----
- # Ideation Phase Guidance
+# Ideation Phase Guidance
 
 This rule guides the agent through the initial ideation and project setup phase.
 
 ## Phase 1: Bounty Information
 1. Request the bounty link from the user
-2. Create and populate `docs/BOUNTY-DESCRIPTION.md` with:
+2. Create and populate `docs/bounty-description.md` with:
    - Bounty link
    - Prize details
    - Requirements and constraints
@@ -23,7 +19,7 @@ This rule guides the agent through the initial ideation and project setup phase.
    - Discuss technical feasibility
    - Explore innovative approaches
 
-2. Document finalized project concept in `docs/PROJECT-DESCRIPTION.md`:
+2. Document finalized project concept in `docs/project-description.md`:
    - Project overview
    - Key features
    - Technical approach
@@ -44,12 +40,6 @@ This rule guides the agent through the initial ideation and project setup phase.
    - Setup instructions reference
    - Team information
 
-3, Update the `SETUP.md`:
-   - Next steps
-   - Guiding the agent
-   - Fixing mistakes
-   - Deploying the application
-
 ## Constraints
 - No code implementation should begin before completing these phases
 - Each phase must be completed sequentially
@@ -61,4 +51,4 @@ This rule guides the agent through the initial ideation and project setup phase.
 - Complete bounty requirements captured
 - Well-defined project scope
 - Comprehensive documentation in place
-- Team alignment on project goals
+- Team alignment on project goals 
